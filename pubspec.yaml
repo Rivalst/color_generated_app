@@ -1,0 +1,57 @@
+name: color_g
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+
+  bloc: ^8.1.2
+  cupertino_icons: ^1.0.2
+  flutter: # SDK version of your choice
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_launcher_icons: "^0.13.1"
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^4.0.4
+  intl: any
+  shared_preferences: ^2.2.1
+  solid_lints: ^0.0.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #  flutter_lints: ^2.0.0
+  solid_lints: ^0.0.19
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/android/ic_launcher.png"
+  image_path_android: "assets/icon/android/ic_launcher.png"
+  adaptive_icon_background: "assets/icon/android/ic_launcher_background.png"
+  adaptive_icon_foreground: "assets/icon/android/ic_launcher_foreground.png"
+  min_sdk_android: 19 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/android/ic_launcher.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icon/android/ic_launcher.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/android/ic_launcher.png"
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+

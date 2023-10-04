@@ -1,0 +1,10 @@
+{
+  "@@locale": "en",
+  "hello_there": "Hello there",
+  "set_to_all": "Set to all color random generated",
+  "set_to_light": "Set to light color random generated",
+  "set_to_dark": "Set to dark color random generated",
+  "change_language": "Change language",
+  "uk": "Ukrainian",
+  "en": "English"
+}
